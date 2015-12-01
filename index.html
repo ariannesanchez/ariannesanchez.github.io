@@ -92,10 +92,17 @@ background: linear-gradient(to left, #DAE2F8 , #D6A4A4); /* W3C, IE 10+/ Edge, F
   
 }
   </style>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+<link href= "https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+
+
 </head>
 <body>
 <header> 
   <img src="http://imgur.com/pT8CPZK.png" alt="Arianne Hipster Logo" width="450px" >
+
   
 
 </header>
@@ -117,7 +124,10 @@ background: linear-gradient(to left, #DAE2F8 , #D6A4A4); /* W3C, IE 10+/ Edge, F
 <section id="who-i-am">
 <div class="container">
 <h1>Who I am</h1>
-    <img src="https://girlmeetsmakeupblog.files.wordpress.com/2015/10/img_7397.jpg" alt="Arianne" width="150">
+    
+    <a class="test-popup-link" href="https://girlmeetsmakeupblog.files.wordpress.com/2015/10/img_7397.jpg"><img src="https://girlmeetsmakeupblog.files.wordpress.com/2015/10/img_7397.jpg" alt="Arianne" width="150"></a>
+
+
 <div>My name is Arianne Sanchez</div>    
 <div> Advertiser living in Miami</div>
 <div> Born and raised in Venezuela</div>
@@ -174,4 +184,14 @@ background: linear-gradient(to left, #DAE2F8 , #D6A4A4); /* W3C, IE 10+/ Edge, F
 <a href="https://instagram.com/ariannesanchez/"><i class="fa fa-instagram"></i>
 </a>
 </footer>
+
+<script>
+
+$('.test-popup-link').magnificPopup({
+  type: 'image'
+  // other options
+});
+
+</script>
+
 </body>
