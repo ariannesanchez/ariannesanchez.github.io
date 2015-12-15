@@ -11,8 +11,8 @@
 }
 
 .jumbotron {
-  background-color: #B7149E;
-  height: 500px;
+  background-color: #000;
+  height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -31,11 +31,11 @@
 
 .jumbotron p {
   font-size: 20px;
-  color: #B7149E;
+  color: #0000;
 }
 
 .learn-more {
-  background-color: #B7149E;
+  background-color: #ffffff;
 }
 
 .learn-more h3 {
@@ -63,3 +63,9 @@
      font-size: 12px;
     margin-bottom: 13px;    
 }
+footer {
+    background-color: #B7149E;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
