@@ -1,6 +1,6 @@
 .nav a {
-  color: #5a5a5a;
-  font-size: 11px;
+  color: #fff;
+  font-size: 10px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
@@ -24,7 +24,7 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
+  font-size: 45px;  
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
@@ -35,12 +35,12 @@
 }
 
 .learn-more {
-  background-color: #f7f7f7;
+  background-color: #000;
 }
 
 .learn-more h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -55,11 +55,11 @@
 
 .neighborhood-guides h2{
     color: #393c3d;
-    font-size: 24px;
+    font-size: 22px;
 
 }
 
 .neighborhood-guides p{
-     font-size: 15px;
+     font-size: 12px;
     margin-bottom: 13px;    
 }
